@@ -71,6 +71,7 @@ plugins:
       tags_allowed:
       - manuals
       - help
+      - diagrams
   - glightbox
  
 
