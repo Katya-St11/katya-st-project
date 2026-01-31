@@ -48,6 +48,7 @@ nav: # Структура сайта
      - Инструкция для Телеграм: instructions/katya-st-instruction.md
      - Инструкция для Jira: instructions/page-1.md
    - Теговая страница: tags.md
+   - Сценарии: diagrams.md
   
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
