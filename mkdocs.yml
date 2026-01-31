@@ -47,6 +47,7 @@ nav: # Структура сайта
      - instructions/index.md
      - Инструкция для Телеграм: instructions/katya-st-instruction.md
      - Инструкция для Jira: instructions/page-1.md
+   - Теговая страница: tags.md
   
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -63,4 +64,13 @@ markdown_extensions: # Расширения markdown
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - tags:
+      tags_allowed:
+      - manuals
+      - help
+  - glightbox
+ 
 
