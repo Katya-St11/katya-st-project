@@ -34,11 +34,11 @@ theme: # Тема сайта, информация о ее параметрах
     #- navigation.tabs # Верхнее меню
     - navigation.tabs.sticky # Фиксация верхнего меню
     - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
-    - toc.integrate # Фиксирует оглавление страницы в левом меню
+    #- toc.integrate # Фиксирует оглавление страницы в левом меню
     - navigation.instant # Функция быстрой загрузки страниц
     - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
     - search.suggest # Подсказки при вводе поискового запроса
-    - search.highlight # Подсветка результатов поиска в тексте страницы
+    #- search.highlight # Подсветка результатов поиска в тексте страницы
     - content.code.copy # Кнопка копирования в блоке кода
 
 nav: # Структура сайта
@@ -48,17 +48,17 @@ nav: # Структура сайта
      - Инструкция для Телеграм: instructions/katya-st-instruction.md
      - Инструкция для Jira: instructions/page-1.md
    - Теговая страница: tags.md
-   - Сценарии: diagrams.md
+   - Сценарии приложения Нотсапп: diagrams.md
   
 markdown_extensions: # Расширения markdown
-  - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  #- admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
   - attr_list # Использование html-атрибутов и CSS в элементах markdown
   - md_in_html # Поддержка markdown внутри html
   - def_list # Поддержка списков определений
   - pymdownx.tabbed: # Использование вкладок (табов)
       alternate_style: true
-  - pymdownx.details # Использование спойлеров (катов)
+  #- pymdownx.details # Использование спойлеров (катов)
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
   - pymdownx.superfences # Поддержка вложенных блоков кода
@@ -73,6 +73,6 @@ plugins:
       - manuals
       - help
       - diagrams
-  - glightbox
+  #- glightbox
  
 
