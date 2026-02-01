@@ -13,7 +13,7 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: green # Основной цвет
+      primary: blue grey # Основной цвет
       accent: purple # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
@@ -26,15 +26,15 @@ theme: # Тема сайта, информация о ее параметрах
         icon: material/weather-night
         name: Позвать солнышко
       primary: deep purple
-      accent: green
+      accent: blue grey
   features: # настройки функциональностей темы
-    #- navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
+    - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
-    #- navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
-    #- navigation.tabs # Верхнее меню
+    - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
+    - navigation.tabs # Верхнее меню
     - navigation.tabs.sticky # Фиксация верхнего меню
     - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
-    #- toc.integrate # Фиксирует оглавление страницы в левом меню
+    - toc.integrate # Фиксирует оглавление страницы в левом меню
     - navigation.instant # Функция быстрой загрузки страниц
     - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
     - search.suggest # Подсказки при вводе поискового запроса
@@ -51,14 +51,14 @@ nav: # Структура сайта
    - Сценарии приложения Нотсапп: diagrams.md
   
 markdown_extensions: # Расширения markdown
-  #- admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
   - attr_list # Использование html-атрибутов и CSS в элементах markdown
   - md_in_html # Поддержка markdown внутри html
   - def_list # Поддержка списков определений
   - pymdownx.tabbed: # Использование вкладок (табов)
       alternate_style: true
-  #- pymdownx.details # Использование спойлеров (катов)
+  - pymdownx.details # Использование спойлеров (катов)
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
   - pymdownx.superfences # Поддержка вложенных блоков кода
@@ -73,6 +73,6 @@ plugins:
       - manuals
       - help
       - diagrams
-  #- glightbox
+  - glightbox
  
 
