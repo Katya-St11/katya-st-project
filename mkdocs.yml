@@ -49,6 +49,7 @@ nav: # Структура сайта
      - Инструкция для Jira: instructions/page-1.md
    - Теговая страница: tags.md
    - Сценарии приложения Нотсапп: diagrams.md
+   - API документация Swagger: api/api.md
   
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -74,5 +75,6 @@ plugins:
       - help
       - diagrams
   - glightbox
+  - swagger-ui-tag
  
 
