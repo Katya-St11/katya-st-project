@@ -76,5 +76,7 @@ plugins:
       - diagrams
   - glightbox
   - swagger-ui-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/  
  
 
