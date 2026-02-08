@@ -33,3 +33,5 @@ tags:
 ---
 
 Ссылка на Telegram Desktop - [ссылка](https://desktop.telegram.org/)
+
+--8<-- "source:info"
