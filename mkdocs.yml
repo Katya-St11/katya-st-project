@@ -9,7 +9,7 @@ theme: # Тема сайта, информация о ее параметрах
   language: ru # Язык
   palette: # Настройки светлой и тёмной тем
     # Настройки светлой темы
-    - scheme: docs 
+    - scheme: default 
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
@@ -23,8 +23,6 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-night
         name: Позвать солнышко
-      primary: deep purple
-      accent: blue grey
   features: # настройки функциональностей темы
     - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
