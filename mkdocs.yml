@@ -48,6 +48,7 @@ nav: # Структура сайта
    - Теговая страница: tags.md
    - Сценарии приложения Нотсапп: diagrams.md
    - API документация Swagger: api/api.md
+   - API документация Redoc: api/api-redoc.md
   
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -77,6 +78,7 @@ plugins:
       - diagrams
   - glightbox
   - swagger-ui-tag
+  - redoc-tag
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/  
  
