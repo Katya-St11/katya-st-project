@@ -1,0 +1,28 @@
+/* Настройки светлой схемы */
+
+[data-md-color-scheme="docs"] {
+  --md-primary-fg-color: #00AB6F; /*Основной цвет*/
+  --md-accent-fg-color: #20805E; /*Акцентный цвет*/
+  --md-typeset-a-color: #006F48; /*Цвет ссылок*/
+  --md-default-bg-color: #b1d6c9; /*Фоновый цвет*/
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #111111; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #504d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+  --md-footer-bg-color: #00AB6F; /*Цвет футера*/
+}
+
+/*Параметры текста статей*/
+.md-typeset {
+    font-family: 'Verdana', 'arial';
+    font-weight: 400;
+    font-size: 16px;
+    color: #232629;
+}
+/*Параметры текста nav и toc*/
+.md-nav {
+    font-family: 'Verdana', 'arial';
+    font-weight: 400;
+    font-size: 16px;
+    color: #232629;
+}
